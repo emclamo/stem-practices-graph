@@ -43,6 +43,29 @@ The graph highlights clusters, connection strengths, and labels, and exports two
   - `pickle` (standard lib)
   - `os` (standard lib)
 
+---
+
+## 📸 Example Output
+
+![Graph with labels](knowledge_graph_with_text.png)  
+_Automatically generated PNG with color-coded nodes, directional arrows, and labeled relationships._
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for full terms.
+
+---
+
+## 🙏 Acknowledgements
+
+Thanks to the collaborative input of STEM education researchers and developers.  
+This script was refined using AI-assisted coding and is designed for broad reuse in academic and outreach contexts.
+
+---
+
 Install dependencies:
 
 ```bash
