@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# VS Code or PyCharm project settings
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Log and output files
+*.log
+*.out
+*.png
+
+# Pickled layout file
+layout_positions.pkl
