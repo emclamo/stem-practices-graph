@@ -5,6 +5,8 @@ The graph highlights clusters, connection strengths, and labels, and exports two
 
 ---
 
+![Graph with labels](knowledge_graph_with_text.png)
+
 ## ✨ Features
 
 - Directed, weighted network graph using NetworkX
