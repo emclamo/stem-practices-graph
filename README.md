@@ -59,13 +59,6 @@ See the [LICENSE](LICENSE) file for full terms.
 
 ---
 
-## 🙏 Acknowledgements
-
-Thanks to the collaborative input of STEM education researchers and developers.  
-This script was refined using AI-assisted coding and is designed for broad reuse in academic and outreach contexts.
-
----
-
 Install dependencies:
 
 ```bash
