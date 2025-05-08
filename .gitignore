@@ -24,3 +24,15 @@ env.bak/
 
 # Pickled layout file
 layout_positions.pkl
+
+# Ignore data and output folders
+2021 mapping graphs/
+2022 mapping graphs/
+2023 mapping graphs/
+2024 mapping graphs/
+GitHub repo/
+Mapping BP to NSF BI/
+
+# Ignore data files
+*.csv
+*.xlsx
