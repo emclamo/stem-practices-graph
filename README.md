@@ -1,46 +1,49 @@
-📚 Knowledge Graph Builder
-This Python script creates a customized knowledge graph from a CSV file, drawing connections between inner nodes and outer ring regions with user-defined connection strengths.
-The final output is a publication-quality graph saved automatically as a PNG image (knowledge_graph.png).
- 
-✨ Features
-•	Flexible number of inner nodes and outer regions
-•	Thickness of connecting lines based on input strength values
-•	Colored inner nodes and outer regions for easy mapping
-•	Separate legends for nodes and outer regions
-•	Clean, professional layout using matplotlib
-•	Automatic saving as high-resolution PNG
-•	Easy to adapt for publication, reports, or presentations
- 
-📈 Example Diagram
-(Insert a sample generated image here once you run the script!)
- 
- 
-📂 How It Works
-1.	Prepare your CSV file:
-The first column should be the node names.
-Each subsequent column corresponds to an outer region and contains connection strengths.
-Example CSV format:
-NodeName	Region1	Region2	Region3	Region4	Region5
-Node A	8	7	7	6	7
-Node B	5	6	4	5	6
-2.	Run the script:
-bash
-Copy
-python knowledge_graph_builder.py
-3.	Enter the path to your CSV file when prompted.
-4.	View the generated graph and find knowledge_graph.png saved in the working directory!
- 
-🛠️ Requirements
-•	Python 3.7+
-•	Packages:
-o	matplotlib
-o	pandas
-o	numpy
-Install required packages:
-bash
-Copy
-pip install matplotlib pandas numpy
- 
-📜 License
-This project is released under the MIT License.
- 
+# 📚 STEM Practices Knowledge Graph
+
+This Python script generates a customizable, publication-quality knowledge graph that visualizes the relationships between best practices used by STEM education centers.  
+The graph highlights clusters, connection strengths, and labels, and exports two high-resolution images with and without text.
+
+---
+
+## ✨ Features
+
+- Directed, weighted network graph using NetworkX
+- Node coloring based on user-defined clusters
+- Weighted edges with optional relationship labels
+- Two export modes: with labels and without
+- Saves layout for consistent re-use across sessions
+- High-resolution PNG output ready for publication or presentation
+
+---
+
+## 🧠 How It Works
+
+1. **Nodes** represent best practice themes.
+2. **Edges** represent directional relationships and vary in thickness based on weight.
+3. **Edge labels** (e.g., "supports", "drives") explain how one practice influences another.
+4. **Clusters** are color-coded and used to group practices into broader categories.
+
+---
+
+## 🗂️ Files
+
+- `stem_practices_knowledge_graph.py` — main Python script
+- `layout_positions.pkl` — saved layout for consistent node positioning
+- `knowledge_graph_with_text.png` — PNG output with full node/edge labels
+- `knowledge_graph_no_labels.png` — clean PNG version without any text
+
+---
+
+## 🛠️ Requirements
+
+- Python 3.7+
+- Packages:
+  - `networkx`
+  - `matplotlib`
+  - `pickle` (standard lib)
+  - `os` (standard lib)
+
+Install dependencies:
+
+```bash
+pip install networkx matplotlib
