@@ -3,6 +3,8 @@
 This Python script generates a customizable, publication-quality knowledge graph that visualizes the relationships between best practices used by STEM education centers.  
 The graph highlights clusters, connection strengths, and labels, and exports two high-resolution images with and without text.
 
+![STEM Practices Knowledge Graph](KG.png)
+
 ---
 
 ![Graph with labels](knowledge_graph_with_text.png)
